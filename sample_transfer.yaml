@@ -1,0 +1,7 @@
+destination:
+  table: test_table
+source:
+  project: sample_project
+  # language=genericsql
+  query: |
+    SELECT * FROM accounts WHERE is_deleted != true

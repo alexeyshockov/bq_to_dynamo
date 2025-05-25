@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+poetry.lock linguist-generated -diff merge=binary
+pdm.lock linguist-generated -diff merge=binary
+uv.lock linguist-generated -diff merge=binary
